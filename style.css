@@ -11,7 +11,7 @@
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -40,7 +40,11 @@ section {
 }
 
 .drm-color {
-    color: rgb(202, 24, 193);
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(202, 24, 193), rgb(255, 102, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .link-button2 {
@@ -60,4 +64,45 @@ section {
 
 .right-padding-p {
     padding-right: 15%;
+}
+
+.gradient-text {
+    display: inline-block;
+    background-image: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.exp-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.exp-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+}
+
+#border-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#border-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.footer {
+    text-align: center;
 }
