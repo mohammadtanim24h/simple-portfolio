@@ -13,6 +13,7 @@
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half-width {
@@ -36,4 +37,27 @@ section {
 .top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+
+.drm-color {
+    color: rgb(202, 24, 193);
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(202, 24, 193), rgb(255, 102, 0));
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px; 
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.right-padding-p {
+    padding-right: 15%;
 }
